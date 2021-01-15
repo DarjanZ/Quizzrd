@@ -33,7 +33,6 @@ public class MainActivity extends AppCompatActivity {
     private Spinner spinnerDifficulty;
     private int highscore;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -59,7 +58,6 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
-
     private void startQuiz(){
         Category selectedCategory = (Category) spinnerCategory.getSelectedItem();
         int categoryID = selectedCategory.getId();
