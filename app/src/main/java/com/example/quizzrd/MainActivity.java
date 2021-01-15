@@ -33,6 +33,7 @@ public class MainActivity extends AppCompatActivity {
     private Spinner spinnerDifficulty;
     private int highscore;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
